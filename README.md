@@ -1,28 +1,31 @@
-# J.A.R.V.I.S — Autonomous Multi-Agent AI System
+# Jarvis AI Assistant
 
-## Overview
-An autonomous agentic AI framework using 
-LangChain and Llama 3.3 (70B) on Groq for 
-ultra-low latency intent processing.
+## Problem Statement
+Many users need a voice-based assistant for automation...
 
 ## Features
-- Ultra-low latency using Groq
-- Bilingual Telugu-English voice interaction
-- Native OS automation
-- Live web data access
-- Dynamic code generation
+- Voice input (SpeechRecognition)
+- Text-to-speech output
+- OpenAI / LLM integration
+- Task automation
 
 ## Tech Stack
-- Python
-- LangChain
-- Llama 3.3 (70B)
-- Groq API
-- Voice Engine
+Python, SpeechRecognition, pyttsx3, OpenAI API
+
+## How It Works
+Step-by-step explanation
 
 ## How to Run
-1. Clone repository
-2. Create private.env with API keys
-3. Install dependencies:
 pip install -r requirements.txt
-4. Run:
-python jarvis_ui.py
+python main.py
+
+## Future Improvements
+- Add GUI
+- Add Telugu support
+
+- jarvis/
+├── main.py
+├── speech/
+├── utils/
+├── requirements.txt
+└── README.md
