@@ -4,7 +4,6 @@
 Many users need a voice-based assistant for automation...
 
 ## Features
-- Voice input (SpeechRecognition)
 - Text-to-speech output
 - OpenAI / LLM integration
 - Task automation
