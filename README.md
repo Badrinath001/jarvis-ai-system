@@ -8,6 +8,8 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
 </p>
 
+<img width="800" height="411" alt="image" src="https://github.com/user-attachments/assets/8a00865f-b6e2-44f7-bd67-dc92db6297b9" />
+
 <p align="center">
   <b>An Autonomous Multi-Agent AI System with Voice Interaction, Task Automation & LLM Integration</b>
 </p>
