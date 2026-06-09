@@ -19,7 +19,7 @@
 **Jarvis AI System** is an intelligent, voice-enabled autonomous assistant that uses a **multi-agent architecture** to understand user commands, delegate tasks to specialized agents, and respond with human-like intelligence — all powered by **OpenAI's LLMs** and **LangChain**.
 
 Think of it as your personal AI assistant that can:
-- 🎙️ Listen to your voice commands
+- 😎 your commands that
 - 🧩 Break complex tasks into sub-tasks using agents
 - 🤖 Execute tasks autonomously
 - 🔊 Respond with natural voice output
@@ -30,7 +30,6 @@ Think of it as your personal AI assistant that can:
 
 | Feature | Description |
 |--------|-------------|
-| 🎙️ **Voice Input** | Real-time speech recognition using SpeechRecognition |
 | 🔊 **Voice Output** | Natural text-to-speech using pyttsx3 |
 | 🤖 **Multi-Agent System** | Specialized agents for different task types |
 | 🧠 **LLM Integration** | Powered by OpenAI GPT for intelligent responses |
