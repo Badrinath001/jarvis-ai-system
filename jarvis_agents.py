@@ -85,11 +85,7 @@ def run_autonomous_agent(user_prompt: str) -> str:
                     return execute_mac_command.invoke(tool_call["args"])
                 elif tool_call["name"] == "deep_web_research":
                     search_data = deep_web_research.invoke(tool_call["args"])
-                    
-                    # Feed web data back to LLM for final summarized response
-                    summary_messages = messages + [response, HumanMessage(content=f"Summarize this live web data for the user: {search_data}")]
-                    final_reply = llm.invoke(summary_messages)
-                    return final_reply.content
+                    return search_data
                     
         return response.content
     except Exception as e:
